@@ -17,7 +17,7 @@ function getComputerChoice() {
 
 
 function getHumanChoice() {
-  let activeChoice = prompt("Enter a hand signal of choice (Rock, Paper or Scissors):", "");
+  let activeChoice = prompt("Enter a hand signal of choice (Rock, Paper or Scissors). And don't forget to open the console to see your output!", "");
   let humanInput;
   if (activeChoice === null || activeChoice === "") {
     console.log("You need to enter a value. Try again!");
