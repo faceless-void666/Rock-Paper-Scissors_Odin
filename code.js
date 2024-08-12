@@ -80,10 +80,10 @@ function playRound(humanChoice, computerChoice) {
 
   function winnerCheck() {
     if (humanScore == 5) {
-      alert("You won the game!!!");
+      alert("You won the game!!! \n(Refresh to start again)");
       return;
     } else if (computerScore == 5) {
-      alert("You really lost to a computer...?")
+      alert("Did you just lost to a computer?! \n(Refresh to start again)")
     }
   }
 
